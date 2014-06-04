@@ -1,9 +1,8 @@
 package = "moonscript"
-version = "0.2.4-1"
+version = "dev-1"
 
 source = {
-	url = "git://github.com/leafo/moonscript.git",
-	branch = "v0.2.4"
+	url = "git://github.com/leafo/moonscript.git"
 }
 
 description = {
@@ -27,6 +26,8 @@ build = {
 		["moon.all"] = "moon/all.lua",
 		["moonscript"] = "moonscript/init.lua",
 		["moonscript.base"] = "moonscript/base.lua",
+		["moonscript.cmd.coverage"] = "moonscript/cmd/coverage.lua",
+		["moonscript.cmd.lint"] = "moonscript/cmd/lint.lua",
 		["moonscript.compile"] = "moonscript/compile.lua",
 		["moonscript.compile.statement"] = "moonscript/compile/statement.lua",
 		["moonscript.compile.value"] = "moonscript/compile/value.lua",
